@@ -1,4 +1,5 @@
-console.log('JavaScript')
-console.log(2011)
-console.log('Woohoo! I love to code! #codecademy')
-console.log(20.49)
+console.log(42 + 3.5);
+//tja dauert wohl noch //
+console.log(2020 - 1969);
+console.log(65 / 240);
+console.log(0.2708 * 100);
