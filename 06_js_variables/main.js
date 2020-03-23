@@ -1,4 +1,5 @@
-let newVariable = 'Playing around with typeof.';
-console.log(typeof newVariable);
-newVariable = 1;
-console.log(typeof newVariable);
+let number = 1;
+let string = 'world';
+let sum = number + string;
+console.log(sum);
+console.log(typeof sum);
