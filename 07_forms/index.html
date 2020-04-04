@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <title>Checkbox Input</title>
+    <title>Radio Input</title>
 </head>
 
 <body>
@@ -33,25 +33,27 @@
                 <span>Well-Done</span>
             </section>
             <hr>
-
             <section class="toppings">
                 <span>What toppings would you like?</span>
                 <br>
-                <!--Add your code below for the first checkbox-->
-
+                <input type="checkbox" name="topping" id="lettuce" value="lettuce">
                 <label for="lettuce">Lettuce</label>
-                <input id="lettuce" name="topping" type="checkbox" value="lettuce">
-                <!--Add your code below for the second checkbox-->
-
+                <input type="checkbox" name="topping" id="tomato" value="tomato">
                 <label for="tomato">Tomato</label>
-                <input id="tomato" name="topping" type="checkbox" value="tomato">
-                <!--Add your code below for the third checkbox-->
-                <label for="ketchup">Ketchup</label>
-                <input id="ketchup" name="topping" type="checkbox" value="ketchup">
+                <input type="checkbox" name="topping" id="onion" value="onion">
+                <label for="onion">Onion</label>
+            </section>
+            <hr>
 
-
-
-
+            <section class="cheesy">
+                <span>Would you like to add cheese?</span>
+                <br>
+                <!--Add your first radio button below-->
+                <input id="yes" name="cheese" type="radio" value="yes">
+                <label for="yes">Yes</label>
+                <!--Add your second radio button below-->
+                <input id="no" name="cheese" type="radio" value="no">
+                <label for="no">No</label>
             </section>
 
         </form>
